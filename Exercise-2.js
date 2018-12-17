@@ -42,3 +42,19 @@ myPenguin.fly();
 myPenguin.canFly = true;
 
 myPenguin.fly();
+
+var key = ' ';
+var i;
+for (i in myPenguin) {
+	key += i + ", ";
+};
+
+console.log(key);
+
+var value = ' ';
+var v;
+for (v in myPenguin) {
+	value += myPenguin[v];
+};
+
+console.log(value);
